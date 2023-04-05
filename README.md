@@ -46,3 +46,13 @@ git push - After using a "commit" the changes will only be saved locally. To upl
   - COMMAND: cat example.pub
 - To copy the contentes of a file, in this case the contents of my public key (I'll also need to know the file path)
   - COMMAND: pbcopy < ~/example.pub
+  
+ GIT BRANCHING
+  - To see what branch you're currently working in type:
+    - "git branch"
+  - To create a new branch and switch to it type:
+    - "git checkout -b [Whatever name you want the branch to have]"
+  - To switch between branches type:
+    - "git checkout [Whatever the branche's name is]"
+  - To just create a branch and not actually switch to it type:
+    - "git branch [Whatever name you want the branch to have]"
