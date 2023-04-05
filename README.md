@@ -56,3 +56,5 @@ git push - After using a "commit" the changes will only be saved locally. To upl
     - "git checkout [Whatever the branche's name is]"
   - To just create a branch and not actually switch to it type:
     - "git branch [Whatever name you want the branch to have]"
+  - To see what changes have been made, like how you can see on GitHub type:
+    - "git diff [BRANCH]"
