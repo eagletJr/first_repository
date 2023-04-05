@@ -31,7 +31,7 @@ The -m "MESSAGE2" is the same as the optional extended description of the commit
 - Ex: "git commit -m "Added index.html. Updated README.md" -m "Added index.html. Changed README.md to include commands and instructions in using git to commit changes""
 
 git push - After using a "commit" the changes will only be saved locally. To upload the changes to GitHub use "push". Pushes the commits to a remote repository where your work is
-- Ex: "git push origin master"
+- Ex: "git push origin main"
 
  - To actually do use ssh to prove you own the account. To connect a machine to a GitHub account:
    - COMMAND: ssh-keygen -t rsa -b 4096 -C "example@email.com"
