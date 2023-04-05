@@ -58,3 +58,12 @@ git push - After using a "commit" the changes will only be saved locally. To upl
     - "git branch [Whatever name you want the branch to have]"
   - To see what changes have been made, like how you can see on GitHub type:
     - "git diff [BRANCH]"
+  - Once the changes have been pulled into the master branch from secondary branches, they won't appear in a local machine's IDE
+    - You need to type:
+      - "git pull origin master" or whatever syntax is appropriate
+  - To delete branches, you type:
+    - "git branch -d [Whatever name you want the branch to have]"
+    
+  GIT SHORTCUT
+   - If a file was modified instead of added, you can fuse the add and commit command by typing:
+     - "git commit -am ["MESSAGE"]"
